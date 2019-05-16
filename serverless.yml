@@ -1,0 +1,14 @@
+
+service: vulnarable-app
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  run:
+    handler: handler.handler
+    events:
+      - http:
+          path: run
+          method: post
