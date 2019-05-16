@@ -1,9 +1,9 @@
 
-service: vulnarable-app
+service: vulnerable-app
 
 provider:
   name: aws
-  runtime: python3.7
+  runtime: python3.6
 
 functions:
   run:
