@@ -1,5 +1,5 @@
 
-service: vulnerable-app
+service: demo-app
 
 provider:
   name: aws
